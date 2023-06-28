@@ -34,7 +34,7 @@ Open the generated SVG file to view the QR code..<br>
 3. After running the program, you will find the generated QR code as an SVG file named qr_code.svg in the current working directory.
 
 
-# NOTE:
+# NOTE :
 After importing the pyqrcode module, the code prompts the user to enter the text or link for which they want to generate the QR code. The input is stored in the data variable.
 
 The pyqrcode.create() function is then used to create a QR code object based on the provided data.
