@@ -17,6 +17,8 @@ The QR code will be saved as an SVG file with the name qr_code.svg..<br>
 Open the generated SVG file to view the QR code..<br>
 
 
+
+
 ## Getting Started
 1. Clone this repository to your local machine.
 2. Install the pyqrcode library by running the following command:
@@ -30,6 +32,14 @@ Open the generated SVG file to view the QR code..<br>
 2. Follow the prompts to enter the text or link for which you want to generate a QR code.
    
 3. After running the program, you will find the generated QR code as an SVG file named qr_code.svg in the current working directory.
+
+
+# NOTE:
+After importing the pyqrcode module, the code prompts the user to enter the text or link for which they want to generate the QR code. The input is stored in the data variable.
+
+The pyqrcode.create() function is then used to create a QR code object based on the provided data.
+
+The .svg() method of the QR code object is used to save the QR code as an SVG (Scalable Vector Graphics) file. The method takes two arguments: the file name to save the QR code as (qr_code.svg in this case), and the scale parameter which determines the size of the QR code in the SVG file (in this case, a scale of 8 is used).
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
