@@ -16,7 +16,7 @@ The program will create a QR code using the pyqrcode.create() function..<br>
 The QR code will be saved as an SVG file with the name qr_code.svg..<br>
 Open the generated SVG file to view the QR code..<br>
 
-
+HOSTED LINK: https://lambent-alpaca-062c66.netlify.app
 
 
 ## Getting Started
