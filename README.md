@@ -25,9 +25,12 @@ HOSTED LINK: https://lambent-alpaca-062c66.netlify.app
 
 ```pip install pyqrcode```
 
+3. To check if the package is installed
+```pip show pyqrcode```
+
 1.Run the Python program by executing the following command:
 
-```python qr_code_generator.py```
+```python Qr-code.py```
 
 2. Follow the prompts to enter the text or link for which you want to generate a QR code.
    

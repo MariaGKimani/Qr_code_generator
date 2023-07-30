@@ -8,3 +8,4 @@ qr = pyqrcode.create(data)
 
 # Using .svg method to save the qr code as SVG file of provided name & scale 
 qr.svg('qr_code.svg', scale = 8)
+
